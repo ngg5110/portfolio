@@ -6,34 +6,25 @@
      Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
     -->
     <head>
-        <!-- What's in the <head> element is a "meta" area not for display. 
-            It holds important information about the website's contents.
-            The text inside the <title> element does show in the top tab of a web browser. 
-             The <head> is where we will include info about styling the site, too. -->
-        <title>About</title>
+        <!-- What's in the <head> element is NOT for display in a web browser! 
+            <head> stores "meta" information describing and setting up things ABOUT this HTML file. 
+            It holds important information about the website's contents. -->
+        <title>New Page</title>
+       <!-- The text inside the <title> element does show in the top tab of a web browser. 
+            The <head> is where we will include info about styling the site, too.-->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="style.css" />
         <!-- Here is a place where we can add a little styling code called CSS to this page. 
             I used it to apply a background color to the body element.
         -->
-       
+        <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
         <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
-        <h1>About</h1>
+        <h1>Beginning HTML</h1>
         <nav class="featureBlock">
             <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="gallery.html">Gallery</a> | <a href="newpage.html">New Page</a>
-        
         </nav>
-        
-        <p>Can you find the birb?</p>
-        <div class="side-by-side">
-            <p>Go back to my <a href="index.html">home page</a>.</p>
-            <figure>
-                <img src="images/cockatoo.jpg" />
-                <figcaption>birb.</figcaption>
-            </figure>
-        </div>
+      <p> Put a &lt;p&gt; and &lt;/p&gt; to write text in between.</p>
     </body>
 </html>
