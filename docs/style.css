@@ -5,6 +5,11 @@ body {
     font-family: Papyrus, Comic-sans, Arial, Helvetica, sans-serif;
 }
 
+/*section/main   {
+padding:2m;
+
+}*/
+
 div.side-by-side {
     display: flex;
 }
