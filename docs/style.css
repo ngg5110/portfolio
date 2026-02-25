@@ -22,5 +22,8 @@ img {
 .featureBlock {
     background-color:AntiqueWhite;
     font-size: smaller;
+    width: 13%;
+/*    margin: auto;*/
+padding-left: 2em;
 }
 
