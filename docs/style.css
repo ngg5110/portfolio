@@ -1,14 +1,14 @@
 body {
 
     /*background:papayaWhip*/
-    background: MediumAquaMarine;
+    background: Cornsilk;
     font-family: Papyrus, Comic-sans, Arial, Helvetica, sans-serif;
 }
 
-/*section/main   {
-padding:2m;
+section.main   {
+padding:2em;
 
-}*/
+}
 
 div.side-by-side {
     display: flex;
@@ -20,6 +20,7 @@ img {
 }
 
 .featureBlock {
-    background-color:LightSeaGreen;
+    background-color:AntiqueWhite;
     font-size: smaller;
 }
+
