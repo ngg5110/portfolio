@@ -35,3 +35,10 @@ padding-left: 2em;
 div.inline{
 display:inline;
 }
+
+.majorBlock {
+    background-color:AliceBlue;
+    width: 30%;
+/*    margin: auto;*/
+padding-left: 3em;
+}
