@@ -22,7 +22,7 @@ img {
 .featureBlock {
     background-color:AntiqueWhite;
     font-size: smaller;
-    width: 13%;
+    width: 21%;
 /*    margin: auto;*/
 padding-left: 2em;
 }
@@ -46,7 +46,7 @@ padding-left: 3em;
 
 div.threeD{
     width:50%;
-    background:lightpink;
+    background: linear-gradient(135deg, #ff6b6b 9%, #feca57 50%, #ff9ff3 100%);
  
 
 }
@@ -56,4 +56,17 @@ div.threeD iframe{
     max-height:1280px;
     max-width:1280px;
     padding-left: 3em;
+}
+
+
+.zoom {
+  padding: 5px;
+  background: linear-gradient(135deg, #ff6b6b 9%, #feca57 50%, #ff9ff3 100%);;
+  transition: transform .3s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+  background: linear-gradient(135deg, #0052D4 6%, #65C7F7 50%, #9CECFB 100%); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
