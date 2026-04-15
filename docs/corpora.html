@@ -9,7 +9,7 @@
         <!-- What's in the <head> element is NOT for display in a web browser! 
             <head> stores "meta" information describing and setting up things ABOUT this HTML file. 
             It holds important information about the website's contents. -->
-        <title>Home</title>
+        <title>Corpora</title>
         <!-- The text inside the <title> element does show in the top tab of a web browser. 
             The <head> is where we will include info about styling the site, too.-->
         <meta charset="UTF-8" />
@@ -24,8 +24,15 @@
         <nav class="featureBlock">
             <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="gallery.html">Gallery</a> | <a href="essay.html">Essay</a> | <a href="corpora.html">Corpora</a>
         </nav>
-        <p>AntConc and Voyant Text Corpora Comparative Analysis</p>
-        <p>Comparing “The Restaurant at the End of the Universe” by Douglass Adams with “The Hound of the Baskervilles” by Sir Arthur Conan Doyle</p>
+        <section class="minorBlock">
+        <p>AntConc and Voyant Text Corpora Comparative Analysis: Comparing “The Restaurant at the End of the Universe” by Douglass Adams with “The Hound of the Baskervilles” by Sir Arthur Conan Doyle</p>
+        </section>
+        
+        <!--talk about themes, characters, tone, mood, structure, context-->
+        <section class="minorBlock">
+        <p>Both of these works are by British novelists. While 'The Hound of the Baskervilles' was published in 1902, 'The Restaurant at the End of the Universe' was published in 1980, 78 years apart.</p>
+        </section>
+        
         <div class="side-by-side">
             <figure>
                 <img class="zoom" src="images/zaphod.png" alt="Voyant corpus word cluster for 'The Restaurant at the End of the Universe'" />
@@ -36,7 +43,9 @@
                 <figcaption>Voyant corpus word cluster for 'The Hound of The Baskervilles'</figcaption>
             </figure>
         </div>
-        <p>talk about word clouds</p>
+        <section class="minorBlock">
+        <p>Both word clouds have 'said' as very commonly used words. With both books being character driven, this makes sense; there will be a lot of dialogue. Names are also very common for this reason; narration has to specify which character is speaking. It seems like names are more often replaced by descriptive pronouns in The Hound of The Baskervilles than in The Restaurant at the End of the Universe.</p>
+        </section>
         <div class="side-by-side">
             <figure>
                 <img class="zoom" src="images/univ2.png" alt="AntConc n-grams for 'The Restaurant at the End of the Universe'" />
@@ -47,18 +56,26 @@
                 <figcaption>AntConc n-grams for 'The Hound of The Baskervilles'</figcaption>
             </figure>
         </div>
-        <p>talk about n-grams</p>
+        
+        <section class="minorBlock">
+        <p></p>
+        </section>
+        
         <div class="side-by-side">
             <figure>
-                <img class="zoom" src="images/resturant.png" alt="AntConc n-gram 'the end of' for 'The Restaurant at the End of the Universe'" />
+                <img class="zoom" src="images/resturant2.png" alt="AntConc n-gram 'the end of' for 'The Restaurant at the End of the Universe'" />
                 <figcaption>AntConc n-gram 'the end of' for 'The Restaurant at the End of the Universe'</figcaption>
             </figure>
             <figure>
-                <img class="zoom" src="images/sherlock.png" alt="AntConc n-gram 'the end of' for 'The Hound of The Baskervilles'" />
+                <img class="zoom" src="images/sherlock2.png" alt="AntConc n-gram 'the end of' for 'The Hound of The Baskervilles'" />
                 <figcaption>AntConc n-gram 'the end of' for 'The Hound of The Baskervilles'</figcaption>
             </figure>
         </div>
+        
+        <section class="minorBlock">
         <p>talk about similar n-gram</p>
+        </section>
+        
         <div class="side-by-side"> <a href="http://textfiles.com/stories/hitch2.txt">The Restaurant at the End of the Universe</a>
             <a href="http://textfiles.com/stories/hound-b.txt">The Hound of the Baskervilles</a> </div>
         </body>

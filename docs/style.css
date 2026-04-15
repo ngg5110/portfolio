@@ -37,12 +37,18 @@ display:inline;
 }
 
 .majorBlock {
-    background-color:AliceBlue;
-    width: 30%;
+    background-color:#FFEDB3;
+    width: 50%;
 /*    margin: auto;*/
 padding-left: 3em;
 }
 
+.minorBlock {
+    background-color:#FFEDB3;
+    width: 70%;
+/*    margin: auto;*/
+padding-left: 3em;
+}
 
 div.threeD{
     width:50%;
@@ -60,6 +66,7 @@ div.threeD iframe{
 
 
 .zoom {
+border-radius: 5px;
   padding: 5px;
   background: linear-gradient(135deg, #ff6b6b 9%, #feca57 50%, #ff9ff3 100%);;
   transition: transform .3s; /* Animation */
@@ -70,3 +77,5 @@ div.threeD iframe{
   transform: scale(1.1);
   background: linear-gradient(135deg, #0052D4 6%, #65C7F7 50%, #9CECFB 100%); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
+
