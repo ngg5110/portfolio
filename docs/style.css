@@ -44,11 +44,18 @@ padding-left: 3em;
 }
 
 .minorBlock {
-    background-color:#FFEDB3;
+    background-color:#FFFECC;
     width: 70%;
 /*    margin: auto;*/
 padding-left: 3em;
 }
+
+.minorestBlock {
+    background-color:#FFFECC;
+    margin: auto;
+    display: flex;
+}
+
 
 div.threeD{
     width:50%;
