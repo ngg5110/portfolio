@@ -6,11 +6,10 @@
      Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
     -->
     <head>
-        <!-- What's in the <head> element is a "meta" area not for display. 
-            It holds important information about the website's contents.
-            The text inside the <title> element does show in the top tab of a web browser. 
-             The <head> is where we will include info about styling the site, too. -->
-        <title>Gallery</title>
+        <!-- What's in the <head> element is NOT for display in a web browser! 
+            <head> stores "meta" information describing and setting up things ABOUT this HTML file. 
+            It holds important information about the website's contents. -->
+        <title>Game Map</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- Here is a place where we can add a little styling code called CSS to this page. 
@@ -24,24 +23,8 @@
         <nav class="featureBlock">
             <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="gallery.html">Gallery</a> | <a href="essay.html">Essay</a> | <a href="corpora.html">Corpora</a> | <a href="game.html">Game Review</a> | <a href="gamemap.html">Game Map</a>
         </nav>
-        <div class="side-by-side">
-            <figure>
-                <img class="zoom" src="images/cats1.JPG" alt="cats looking out the window" />
-                <figcaption>window.</figcaption>
-            </figure>
-            <figure>
-                <img class="zoom" src="images/cats2.JPG" alt="cats on a chair" />
-                <figcaption>chair.</figcaption>
-            </figure>
-        </div><div class="side-by-side">
-            <figure>
-                <img class="zoom" src="images/cats3.JPG" alt="cats with a fish" />
-                <figcaption>fish.</figcaption>
-            </figure>
-            <figure>
-                <img class="zoom" src="images/cats4.JPG" alt="cats on the couch" />
-                <figcaption>couch.</figcaption>
-            </figure>
+        <div class="threeD">
+            <iframe src="https://embed.kumu.io/83b565c1fcbba7bd166e24e614e549bc" width="940" height="600" frameborder="0"></iframe> 
         </div>
     </body>
 </html>
