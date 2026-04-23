@@ -1,9 +1,21 @@
 body {
 
     /*background:papayaWhip*/
-    background: Cornsilk;
+/*    background: Cornsilk;*/
     font-family: Papyrus, Comic-sans, Arial, Helvetica, sans-serif, Wingdings, Webdings;
+
+      background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.7)), url("images/spiral.gif"); /* Works for .png or .gif */
+  background-size: cover;                /* Scales image to fill screen */
+  background-repeat: no-repeat;          /* Prevents tiling */
+  background-position: center;           /* Centers the image */
+  min-height :100vh;
+  width: 98%;
+  background-color: #000;
+  background-attachment: fixed;  
+  
+    
 }
+
 
 section.main   {
 padding:2em;
@@ -20,7 +32,7 @@ img {
 }
 
 .featureBlock {
-    background-color:AntiqueWhite;
+    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.7)), linear-gradient(135deg, #ff6b6b 9%, #feca57 50%, #ff9ff3 100%);
     font-size: smaller;
     width: 30%;
 /*    margin: auto;*/
@@ -32,33 +44,40 @@ padding-left: 2em;
   border-radius: 5px;
 }*/
 
+
 div.inline{
 display:inline;
 }
 
 .majorBlock {
-    background-color:#FFF2C7;
+    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.7)), linear-gradient(135deg, #ff6b6b 9%, #feca57 50%, #ff9ff3 100%);
     width: 50%;
 /*    margin: auto;*/
 padding-left: 3em;
 }
 
 .majorestBlock {
-    background-color:#FFF2C7;
+    background: linear-gradient(
+  135deg,
+  rgba(255, 107, 107, 0.5) 9%,
+  rgba(254, 202, 87, 0.5) 50%,
+  rgba(255, 159, 243, 0.5) 100%
+);
+
     width: 95%;
 /*    margin: auto;*/
 padding-left: 3em;
 }
 
 .minorBlock {
-    background-color:#FFF2C7;
+    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.7)), linear-gradient(135deg, #ff6b6b 9%, #feca57 50%, #ff9ff3 100%);
     width: 70%;
 /*    margin: auto;*/
 padding-left: 3em;
 }
 
 .minorestBlock {
-    background-color:#FFF2C7;
+    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.7)), linear-gradient(135deg, #ff6b6b 9%, #feca57 50%, #ff9ff3 100%);
     margin: auto;
     display: flex;
 }
@@ -67,7 +86,7 @@ padding-left: 3em;
 div.threeD{
     width:100%;
     height:100%;
-    background: linear-gradient(135deg, #ff6b6b 9%, #feca57 50%, #ff9ff3 100%);
+    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.7)), linear-gradient(135deg, #ff6b6b 9%, #feca57 50%, #ff9ff3 100%);
  
 
 }
