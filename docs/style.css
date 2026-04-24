@@ -1,29 +1,46 @@
 body {
-
     /*background:papayaWhip*/
-/*    background: Cornsilk;*/
+    /*    background: Cornsilk;*/
     font-family: Papyrus, Comic-sans, Arial, Helvetica, sans-serif, Wingdings, Webdings;
-
-      background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.7)), url("images/spiral.gif"); /* Works for .png or .gif */
-  background-size: cover;                /* Scales image to fill screen */
-  background-repeat: no-repeat;          /* Prevents tiling */
-  background-position: center;           /* Centers the image */
-  min-height :100vh;
-  width: 98%;
-  background-color: #000;
-  background-attachment: fixed;  
-  
-    
+    background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.7)), url("images/spiral.gif"); /* Works for .png or .gif */
+    background-size: cover; /* Scales image to fill screen */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-position: center; /* Centers the image */
+    min-height: 100vh;
+    width: 98%;
+    background-color: #000;
+    background-attachment: fixed;
 }
 
-
-section.main   {
-padding:2em;
-
+section.main {
+    padding: 2em;
 }
 
 div.side-by-side {
     display: flex;
+}
+
+.flex-container {
+    display: flex;
+    gap: 2px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.flex-item {
+
+    margin: 50px;
+    text-align: center;
+    flex: 1;
+}
+
+.size{
+min-height:200px;
+min-width:200px;
+
+
 }
 
 img {
@@ -35,8 +52,8 @@ img {
     background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.7)), linear-gradient(135deg, #ff6b6b 9%, #feca57 50%, #ff9ff3 100%);
     font-size: smaller;
     width: 30%;
-/*    margin: auto;*/
-padding-left: 2em;
+    /*    margin: auto;*/
+    padding-left: 2em;
 }
 
 /*p {
@@ -45,35 +62,35 @@ padding-left: 2em;
 }*/
 
 
-div.inline{
-display:inline;
+div.inline {
+    display: inline;
 }
 
 .majorBlock {
     background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.7)), linear-gradient(135deg, #ff6b6b 9%, #feca57 50%, #ff9ff3 100%);
     width: 50%;
-/*    margin: auto;*/
-padding-left: 3em;
+    /*    margin: auto;*/
+    padding-left: 3em;
 }
 
 .majorestBlock {
     background: linear-gradient(
-  135deg,
-  rgba(255, 107, 107, 0.5) 9%,
-  rgba(254, 202, 87, 0.5) 50%,
-  rgba(255, 159, 243, 0.5) 100%
+135deg, 
+rgba(255, 107, 107, 0.5) 9%, 
+rgba(254, 202, 87, 0.5) 50%, 
+rgba(255, 159, 243, 0.5) 100%
 );
 
     width: 95%;
-/*    margin: auto;*/
-padding-left: 3em;
+    /*    margin: auto;*/
+    padding-left: 3em;
 }
 
 .minorBlock {
     background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.7)), linear-gradient(135deg, #ff6b6b 9%, #feca57 50%, #ff9ff3 100%);
     width: 70%;
-/*    margin: auto;*/
-padding-left: 3em;
+    /*    margin: auto;*/
+    padding-left: 3em;
 }
 
 .minorestBlock {
@@ -82,35 +99,31 @@ padding-left: 3em;
     display: flex;
 }
 
-
-div.threeD{
-    width:100%;
-    height:100%;
+div.threeD {
+    width: 100%;
+    height: 100%;
     background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.7)), linear-gradient(135deg, #ff6b6b 9%, #feca57 50%, #ff9ff3 100%);
- 
 
 }
-div.threeD iframe{
-    width:100%;
-    height:100%;
-    max-height:1280px;
-    max-width:1280px;
+div.threeD iframe {
+    width: 100%;
+    height: 100%;
+    max-height: 1280px;
+    max-width: 1280px;
     padding-left: 3em;
-    min-height:100vh;
+    min-height: 100vh;
 }
-
 
 .zoom {
-border-radius: 5px;
-  padding: 5px;
-  background: linear-gradient(135deg, #ff6b6b 9%, #feca57 50%, #ff9ff3 100%);;
-  transition: transform .3s; /* Animation */
-  margin: 0 auto;
+    border-radius: 5px;
+    padding: 5px;
+    background: linear-gradient(135deg, #ff6b6b 9%, #feca57 50%, #ff9ff3 100%);
+    transition: transform .3s; /* Animation */
+    margin: 0 auto;
 }
 
-.zoom:hover {
-  transform: scale(1.1);
-  background: linear-gradient(135deg, #0052D4 6%, #65C7F7 50%, #9CECFB 100%); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+.zoom:hover,
+.zoom:focus {
+    transform: scale(1.1);
+    background: linear-gradient(135deg, #0052D4 6%, #65C7F7 50%, #9CECFB 100%); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
-
-
