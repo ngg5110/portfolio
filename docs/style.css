@@ -2,7 +2,7 @@ body {
     /*background:papayaWhip*/
     /*    background: Cornsilk;*/
     font-family: Papyrus, Comic-sans, Arial, Helvetica, sans-serif, Wingdings, Webdings;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.7)), url("images/spiral.gif"); /* Works for .png or .gif */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.7)), url("images/battle.gif"); /* Works for .png or .gif */
     background-size: cover; /* Scales image to fill screen */
     background-repeat: no-repeat; /* Prevents tiling */
     background-position: center; /* Centers the image */
@@ -22,14 +22,14 @@ div.side-by-side {
 
 .flex-container {
     display: flex;
-/*    margin:auto;
+    /*    margin:auto;
     width:60%;*/
     gap: 2px;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    
+
 }
 
 .flex-item {
@@ -39,9 +39,9 @@ div.side-by-side {
     flex: 1;
 }
 
-.size{
-min-height:200px;
-min-width:200px;
+.size {
+    min-height: 200px;
+    min-width: 200px;
 
 
 }
